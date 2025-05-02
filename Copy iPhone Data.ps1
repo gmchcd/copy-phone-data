@@ -8,7 +8,7 @@ for ($year = 2006; $year -le 2024; $year++) {
         $sourceFolders += $sourceFolder
     }
 }
-$targetRootFolder = 'E:\Images' # Root folder where folders with the same name will be created
+$targetRootFolder = 'G:\iphone' # Root folder where folders with the same name will be created
 $filter = '(.jpg)|(.mp4)|(.mov)|(.png)$'
 
 function Get-ShellProxy {
